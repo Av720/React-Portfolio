@@ -1,17 +1,21 @@
 import React from 'react';
+import '../src/css/App.css'
+import Theme from './theme';
 
 function Header() {
     return (
         <header>
             <div className="logo">My Portfolio</div>
+           {Theme}
+            <div>
             <nav  className="header">
                 <ul className='breadcrumbs'> 
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
                 </ul>
             </nav>
-
+        </div>
         </header>
     );
 }
