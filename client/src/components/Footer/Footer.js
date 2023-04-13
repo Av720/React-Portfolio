@@ -1,11 +1,12 @@
 import React from "react";
+import '../Footer/footer.css'
 
 
 function Footer() {
     return (
-        <div>
+        <div className="footer" >
             <footer id="footer">
-                <h3>Contact me</h3>
+                <h3 className='footer-txt'>Contact me</h3>
                 <div className="icons-div"> 
                     <a href="https://www.instagram.com/aldov__/"><i className="icons fa-brands fa-instagram fa-xl"></i></a>
                     <a href="https://www.facebook.com/aldo.huertavalencia"><i className="icons fa-brands fa-facebook fa-xl"></i></a>

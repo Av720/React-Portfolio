@@ -1,0 +1,29 @@
+
+.card {
+    width: 20%;
+}
+
+.greeting {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.greeting-txt {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+    justify-content: center;
+
+}
+
+.portfolio-header {
+    color: white;
+}
