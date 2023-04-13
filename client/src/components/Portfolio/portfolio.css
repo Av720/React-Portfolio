@@ -18,10 +18,9 @@
 
 .card {
   width: 18rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: all 0.5s ease;
-  border-color: purple;
+  border-color: rgba(185, 31, 185, 0.888) !important;
   border-width: 5px;
   border-radius: 10px;
 }
@@ -35,6 +34,7 @@
 
 .first-row {
   margin-top: 90px;
+  
 }
 
 /* --------------------------------------------- */
@@ -44,19 +44,17 @@
 .second-row {
   margin-top: 50px;
 }
-/* --------------------------------------------- */
-/* GENERAL STYLING  */
 
-.btn {
+.btn  {
   margin-left: 70px;
-  background-color: rgba(123, 10, 123, 0.853);
-  border: none;
+  background-color: rgba(123, 10, 123, 0.853)!important;
+  border: none !important;
 }
 
 .btn:hover {
-  background-color: rgba(150, 106, 179, 0.732);
+  background-color: rgba(150, 106, 179, 0.732) !important;
 }
 
 .card-img-top {
-  width: 100%;
+  width: 10%;
 }

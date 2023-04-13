@@ -23,7 +23,7 @@
     width: 70%;
     margin-top: 100px;
     margin-left: 80px;
-    box-shadow: 5px 5px 40px 20px #fc1c5b5c;
+    box-shadow: 5px 5px 40px 20px rgba(185, 31, 185, 0.888);
     -webkit-transition: all 0.7s ease;
     transition: all 0.5s ease;
 }
