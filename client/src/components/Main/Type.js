@@ -7,8 +7,7 @@ function Type() {
             options={{
                 strings: [
                     "Fullstack Web Developer",
-                    "I use React, Express, ",
-                    "GraphQL, MongoDB",
+                    "I use React, Express","GraphQL, MongoDB ",
                     " to develop websites",
                 ],
                 autoStart: true,

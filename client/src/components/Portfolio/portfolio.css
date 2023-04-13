@@ -1,17 +1,62 @@
-
-.card {
-    width: 20%;
-}
-
-
-
 /* PORTFOLIO */
 
-.portfolio {
-    justify-content: center;
+#portfolio {
+  margin-top: 250px;
+}
 
+.port-header {
+  text-align: center;
+  color: white;
 }
 
 .portfolio-header {
-    color: white;
+  color: white;
+}
+
+/* --------------------------------------------- */
+/* CARD  */
+
+.card {
+  width: 18rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.5s ease;
+  border-color: purple;
+  border-width: 5px;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 15px 20px 20px rgba(185, 31, 185, 0.888);
+}
+/* --------------------------------------------- */
+/* 1ST RTOW OF CARDS  */
+
+.first-row {
+  margin-top: 90px;
+}
+
+/* --------------------------------------------- */
+
+/* SECOND ROW OF CARDS */
+
+.second-row {
+  margin-top: 50px;
+}
+/* --------------------------------------------- */
+/* GENERAL STYLING  */
+
+.btn {
+  margin-left: 70px;
+  background-color: rgba(123, 10, 123, 0.853);
+  border: none;
+}
+
+.btn:hover {
+  background-color: rgba(150, 106, 179, 0.732);
+}
+
+.card-img-top {
+  width: 100%;
 }

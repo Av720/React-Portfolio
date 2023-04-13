@@ -18,10 +18,10 @@ function NavBar() {
         <div>
             <ul>
               <li>
-                <a className="nav-text" href="#home">Home</a>
+                <a className="nav-text" href="#main">Home</a>
               </li>
             <li>
-              <a className="nav-text" href="#about.me">About Me</a>
+              <a className="nav-text" href="#about">About Me</a>
             </li>
           <li>
               <a className="nav-text" href="#portfolio"> Portfolio</a>

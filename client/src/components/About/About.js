@@ -1,36 +1,42 @@
 import React from "react";
 import "../About/about.css";
-import coding from "../../assets/coding.jpg";
-import Type from "./Type";
+import selfie from "../../assets/profile.png";
+import Tilt from "react-parallax-tilt";
+
 
 function About() {
   return (
-    <div className="" id="about">
+    <div className="about-me" id="about">
       <div className="d-flex">
-        <div className=" introduction flex-fill">
-          <img src={coding} className="coding-img" alt="coding" />
-        </div>
-
-        <div className="intro-text flex-fill">
-          <h1 className="greeting">
-            Hi I'm Aldo!{" "}
-            <span className="wave" role="img" aria-labelledby="wave">
-              👋🏻
-            </span>
-          </h1>
-          <p className="greeting-txt">
-            <Type />
+        <div className="flex-fill">
+          <h1 className="about-header"> About me</h1>
+          <p className="about-text">
+            I have served in the US Marine Corps for 14 years. Aviation
+                      Logistician by trade. <br />
+                      <br />
+            Since I was a kid, I loved anything that relates to building such as
+            PC building and computer programming.
+                      <br />
+                      <br />
+                      
+            I recently completed an accelerated fullstack web development course
+                      that took 3 months to complete. <br /> <br />I have learned and excelled in
+            JavaScript, NodeJS, MongoDB, React, GraphQl, MySQL.
           </p>
         </div>
-      </div>
 
-      <div className="about-card">
-        <h2>Interests</h2>
-        <p>Building Keyboards</p>
-        <p>Building Computers </p>
-        <p>Hiking</p>
+              <div className="profile-pic flex-fill">
+                  <Tilt className="tilt-img"
+                      tiltMaxAngleX={35}
+                      tiltMaxAngleY={35}
+                      perspective={900}
+                      scale={1.1}
+                      transitionSpeed={2000}
+                      gyroscope={true}>
+          <img className="selfie" src={selfie} alt="selfie"></img>
+                  </Tilt>
+              </div>
       </div>
-      <img src="" alt=""></img>
     </div>
   );
 }
