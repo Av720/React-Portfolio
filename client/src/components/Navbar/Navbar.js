@@ -6,7 +6,8 @@ import '../Navbar/header.css'
 
 
 
-function NavBar ()  {
+function NavBar() {
+  
   return (
 
     <div>
