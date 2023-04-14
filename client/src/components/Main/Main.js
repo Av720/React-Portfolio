@@ -6,6 +6,7 @@ import Type from "./Type";
 function Main() {
   return (
     <div className="" id="main">
+    
       <div className="d-flex">
         <div className=" introduction flex-fill">
           <img src={coding} className="coding-img" alt="coding" />

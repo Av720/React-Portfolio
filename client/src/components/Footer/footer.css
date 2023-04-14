@@ -18,7 +18,7 @@
 }
 
 .icons:hover {
-  color: rgb(242, 0, 0);
+  color: #a71fa9;
   -webkit-transform: scale(1.6);
   transform: scale(1.8);
 }

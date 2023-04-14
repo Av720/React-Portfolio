@@ -26,7 +26,7 @@ function Portfolio() {
               </p>
               <a
                 href="https://mercury-pos.herokuapp.com/"
-                className="btn btn-primary"
+                className="btn "
               >
                 Go to Site
               </a>
@@ -44,7 +44,7 @@ function Portfolio() {
                 </p>
                 <a
                   href="https://hollyhleal.github.io/travel-buddy/"
-                  className="btn btn-primary"
+                  className="btn "
                 >
                   Go to Site
                 </a>
@@ -62,7 +62,7 @@ function Portfolio() {
                 </p>
                 <a
                   href="https://fast-cove-47826.herokuapp.com/"
-                  className="btn btn-primary"
+                  className="btn "
                 >
                   Go to Site
                 </a>
@@ -83,7 +83,7 @@ function Portfolio() {
                 </p>
                 <a
                   href="https://av720.github.io/Password-Generator/"
-                  className="btn btn-primary"
+                  className="btn "
                 >
                   Go to Site
                 </a>
@@ -101,7 +101,7 @@ function Portfolio() {
                 </p>
                 <a
                   href="https://av720.github.io/Weather-Dashboard/"
-                  className="btn btn-primary"
+                  className="btn "
                 >
                   Go to Site
                 </a>
@@ -119,7 +119,7 @@ function Portfolio() {
                 </p>
                 <a
                   href="https://av720.github.io/Code-Quiz/"
-                  className="btn btn-primary"
+                  className="btn"
                 >
                   Go to Site
                 </a>

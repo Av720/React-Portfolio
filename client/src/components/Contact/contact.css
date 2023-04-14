@@ -1,0 +1,73 @@
+.contactme-text {
+    color: white;
+    text-align: center;
+    margin-top: 160px;
+}
+
+.contact-form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.contact-text {
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+    
+.error {
+    color: rgb(255, 0, 68);
+}
+
+.submit-btn {
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: white;
+    border-color: #e62daf;
+    border-radius: 10px;
+}
+ 
+.submit-btn:hover {
+    background-color: #2de2e6;
+    color: black;
+border-color: transparent;
+box-shadow: 4px 4px 50px #2de2e6 !important;}
+
+
+
+/* FORM  */
+
+
+.name-field, .email-field {
+    color: white;
+    background-color: transparent;
+    width: 500px;
+    height: 60px;
+    border: 2px solid #e62daf;
+    border-radius: 5px;
+}
+
+.message-field {
+    color: white; 
+   margin-top: 20px;
+        background-color: transparent;
+        
+        width: 500px;
+        height: 200px;
+        border: 2px solid #e62daf;
+        border-radius: 5px;
+}
+
+.name-field {
+    margin-top: 20px;
+
+}
+
+.email-field {
+    margin-top: 20px;
+}
+

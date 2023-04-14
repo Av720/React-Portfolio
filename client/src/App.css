@@ -1,9 +1,4 @@
 #root {
-    background: linear-gradient(black 25%, rgb(31, 41, 54) 58%, black 15%);
-    min-height: 100vh;
+    background-color: rgba(16, 2, 33, 0.982);
    
 }
-/* 
-body {
-    background: rgb(31, 41, 55);
-} */

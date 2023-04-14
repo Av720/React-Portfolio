@@ -29,7 +29,7 @@
 
 .card:hover {
   transform: translateY(-10px);
-  box-shadow: 15px 20px 20px #2de2e6;
+  box-shadow: 15px 20px 20px #2de2e6 !important;
 }
 /* --------------------------------------------- */
 /* 1ST RTOW OF CARDS  */
@@ -49,13 +49,16 @@
 
 .btn  {
   margin-left: 70px;
-  background-color: rgba(185, 31, 185, 0.888) !important;
-  border: none !important;
+  color: white !important;
+  border-color: #e62daf !important;
+  background-color: transparent;
+
 }
 
 .btn:hover {
   background-color: #2de2e6 !important;
   color: black !important;
+  border-color: transparent !important;
 }
 
 .card-img-top {

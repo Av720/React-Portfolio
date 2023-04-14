@@ -4,9 +4,6 @@
   margin-top: 160px;
 }
 
-.card:hover {
-  box-shadow: 15px 20px 20px #e62d9c !important;
-}
 
 .languages {
   /* border: 1px solid purple; */
@@ -51,7 +48,7 @@
 }
 
 .css:hover {
-  box-shadow: 5px 5px 60px #0277bd !important;
+  box-shadow: 5px 5px 60px #039be5 !important;
 }
 .js:hover {
   box-shadow: 5px 5px 60px #ffd600 !important;

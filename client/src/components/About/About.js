@@ -2,11 +2,21 @@ import React from "react";
 import "../About/about.css";
 import selfie from "../../assets/profile.png";
 import Tilt from "react-parallax-tilt";
+import resume from '../../assets/resume.pdf'
 
 
 function About() {
+
+  const handleDownloadResume = () => {
+    const link = document.createElement('a');
+    link.href = resume;
+    link.download = 'resume.pdf';
+    link.click();
+  };
+
   return (
     <div className="about-me" id="about">
+ 
       <div className="d-flex">
         <div className="flex-fill">
           <h1 className="about-header"> About me</h1>
@@ -23,6 +33,8 @@ function About() {
                       that took 3 months to complete. <br /> <br />I have learned and excelled in
             JavaScript, NodeJS, MongoDB, React, GraphQl, MySQL.
           </p>
+
+          <button className="resume-btn" onClick={handleDownloadResume}>Download Resume</button>
         </div>
 
               <div className="profile-pic flex-fill">
