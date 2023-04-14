@@ -2,6 +2,8 @@
 // import { Link } from "react-scroll";
 import '../Navbar/navbar.css'
 import '../Navbar/header.css'
+import 'animate.css';
+
 
 
 
@@ -25,6 +27,9 @@ function NavBar() {
             </li>
           <li>
               <a className="nav-text" href="#portfolio"> Portfolio</a>
+              </li>
+              <li>
+                <a className="nav-text" href="#experience">Experience</a>
               </li>
               <li>
                 <a className="nav-text" href="#footer">Contact Me</a>

@@ -21,13 +21,15 @@
   cursor: pointer;
   transition: all 0.5s ease;
   border-color: rgba(185, 31, 185, 0.888) !important;
-  border-width: 5px;
+  border-width: 2px;
   border-radius: 10px;
+  background-color: transparent !important;
+  color: white;
 }
 
 .card:hover {
   transform: translateY(-10px);
-  box-shadow: 15px 20px 20px rgba(185, 31, 185, 0.888);
+  box-shadow: 15px 20px 20px #2de2e6;
 }
 /* --------------------------------------------- */
 /* 1ST RTOW OF CARDS  */
@@ -47,14 +49,15 @@
 
 .btn  {
   margin-left: 70px;
-  background-color: rgba(123, 10, 123, 0.853)!important;
+  background-color: rgba(185, 31, 185, 0.888) !important;
   border: none !important;
 }
 
 .btn:hover {
-  background-color: rgba(150, 106, 179, 0.732) !important;
+  background-color: #2de2e6 !important;
+  color: black !important;
 }
 
 .card-img-top {
-  width: 10%;
+  width: 100%;
 }

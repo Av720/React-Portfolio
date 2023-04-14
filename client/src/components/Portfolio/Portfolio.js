@@ -6,6 +6,7 @@ import passwordgen from "../../assets/passwordgen.png";
 import travelbuddy from "../../assets/travelbuddy.png";
 import weatherdash from "../../assets/weatherdash.png";
 import codequiz from "../../assets/codequiz.png";
+import Tilt from "react-parallax-tilt";
 
 function Portfolio() {
   return (
@@ -13,8 +14,9 @@ function Portfolio() {
       <h1 className="port-header">MY PORTFOLIO</h1>
 
       <div className="cards">
-
         <div className="first-row d-flex justify-content-evenly">
+
+      <Tilt tiltAngleXInitial={2} tiltAngleYInitial={2}>
           <div className="card" id="card">
             <img src={mercury} className="card-img-top" alt="..." />
             <div className="card-body">
@@ -29,96 +31,101 @@ function Portfolio() {
                 Go to Site
               </a>
             </div>
-          </div>
-
-          <div className="card">
-            <img src={travelbuddy} className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Travel Buddy</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a
-                href="https://hollyhleal.github.io/travel-buddy/"
-                className="btn btn-primary"
-              >
-                Go to Site
-              </a>
             </div>
-          </div>
+            </Tilt>
 
-          <div className="card ">
-            <img src={notetaker} className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Note Taker</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a
-                href="https://fast-cove-47826.herokuapp.com/"
-                className="btn btn-primary"
-              >
-                Go to Site
-              </a>
+          <Tilt tiltAngleXInitial={2} tiltAngleYInitial={2}>
+            <div className="card">
+              <img src={travelbuddy} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Travel Buddy</h5>
+                <p className="card-text">
+                  Travel Buddy is an app designed to be your personal planner on your next trip! 
+                </p>
+                <a
+                  href="https://hollyhleal.github.io/travel-buddy/"
+                  className="btn btn-primary"
+                >
+                  Go to Site
+                </a>
+              </div>
             </div>
-          </div>
+          </Tilt>
+
+          <Tilt tiltAngleXInitial={2} tiltAngleYInitial={2}>
+            <div className="card ">
+              <img src={notetaker} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Note Taker</h5>
+                <p className="card-text">
+                 This is an application where it canbe used to write and save and delete your notes.
+                </p>
+                <a
+                  href="https://fast-cove-47826.herokuapp.com/"
+                  className="btn btn-primary"
+                >
+                  Go to Site
+                </a>
+              </div>
+            </div>
+          </Tilt>
         </div>
         {/* closing of first row */}
 
         <div className="second-row d-flex justify-content-evenly">
-          
-          <div className="card">
-            <img src={passwordgen} className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Password Generator</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a
-                href="https://av720.github.io/Password-Generator/"
-                className="btn btn-primary"
-              >
-                Go to Site
-              </a>
+          <Tilt tiltAngleXInitial={2} tiltAngleYInitial={2}>
+            <div className="card">
+              <img src={passwordgen} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Password Generator</h5>
+                <p className="card-text">
+                  Password Generator will create a random password accoring to the user input.
+                </p>
+                <a
+                  href="https://av720.github.io/Password-Generator/"
+                  className="btn btn-primary"
+                >
+                  Go to Site
+                </a>
+              </div>
             </div>
-          </div>
+          </Tilt>
 
-          <div className="card">
-            <img src={weatherdash} className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Weather Dashboard</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a
-                href="https://av720.github.io/Weather-Dashboard/"
-                className="btn btn-primary"
-              >
-                Go to Site
-              </a>
+          <Tilt tiltAngleXInitial={2} tiltAngleYInitial={2}>
+            <div className="card">
+              <img src={weatherdash} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Weather Dashboard</h5>
+                <p className="card-text">
+                  Weather Dashboard allows users to search a U.S. city and receive current weather forecast.
+                </p>
+                <a
+                  href="https://av720.github.io/Weather-Dashboard/"
+                  className="btn btn-primary"
+                >
+                  Go to Site
+                </a>
+              </div>
             </div>
-          </div>
+          </Tilt>
 
-          <div className="card">
-            <img src={codequiz} className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">JS Code Quiz </h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a
-                href="https://av720.github.io/Code-Quiz/"
-                className="btn btn-primary"
-              >
-                Go to Site
-              </a>
+          <Tilt tiltAngleXInitial={2} tiltAngleYInitial={2}>
+            <div className="card">
+              <img src={codequiz} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">JS Code Quiz </h5>
+                <p className="card-text">
+                  A timed JavaScript coding quiz that will challenge your basic knowledge with given questions.
+                </p>
+                <a
+                  href="https://av720.github.io/Code-Quiz/"
+                  className="btn btn-primary"
+                >
+                  Go to Site
+                </a>
+              </div>
             </div>
-          </div>
+          </Tilt>
         </div>
         {/* closing of second row */}
       </div>

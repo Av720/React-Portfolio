@@ -27,9 +27,9 @@ function About() {
 
               <div className="profile-pic flex-fill">
                   <Tilt className="tilt-img"
-                      tiltMaxAngleX={35}
-                      tiltMaxAngleY={35}
-                      perspective={900}
+                      tiltMaxAngleX={20}
+                      tiltMaxAngleY={20}
+            perspective={800}
                       scale={1.1}
                       transitionSpeed={2000}
                       gyroscope={true}>
