@@ -21,16 +21,18 @@ function About() {
         <div className="flex-fill">
           <h1 className="about-header"> About me</h1>
           <p className="about-text">
-            I have served in the US Marine Corps for 14 years. Aviation
-                      Logistician by trade. <br />
-                      <br />
-            Since I was a kid, I loved anything that relates to building such as
-            PC building and computer programming.
-                      <br />
-                      <br />
+            I have served in the US Marine Corps for 14 years <br />
+            as an Aviation Logistics Specialist. 
+            <br />
+            <br />
+            Since I was a kid, I had a passion for anything that relates
+            <br /> to computers/programming and designing. 
+            
+            <br />
+            <br />
                       
-            I recently completed an accelerated fullstack web development course
-                      that took 3 months to complete. <br /> <br />I have learned and excelled in
+            I have completed an accelerated fullstack Web development course through Denver University.
+                 <br /> <br />I have learned and excelled in
             JavaScript, NodeJS, MongoDB, React, GraphQl, MySQL.
           </p>
 
