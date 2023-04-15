@@ -20,7 +20,7 @@ margin-left: 180px;
 .selfie {
     width: 40%;
     margin-left: 300px;
-    margin-top: 100px;
+    margin-top: 250px;
         box-shadow: 5px 5px 300px 20px #035ee8;
 }
 
@@ -45,4 +45,30 @@ margin-left: 180px;
     background-color: aqua;
     box-shadow: 5px 5px 80px 10px aqua;
     border-color: transparent;
+}
+
+.about-header {
+    display: inline-block;
+        position: relative;
+        color: #ffffff;
+        margin-left: 300px;
+        
+}
+.about-header:after {
+    content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color:
+            #e40fcf;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+}
+
+.about-header:hover:after {
+    transform: scaleX(1);
+        transform-origin: bottom left;
 }

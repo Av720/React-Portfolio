@@ -15,8 +15,10 @@ function Experience() {
     return (
         <div className="experience" id="experience">
             <div className="main-header">
-                <h1 className="header-text"> Experience</h1>
+                <h1 className="header-text"> EXPERIENCE</h1>
             </div>
+
+            <p className="experience-txt">These are the technologies I've used for my projects.</p>
 
             <div className="first-exp-row d-flex">
 

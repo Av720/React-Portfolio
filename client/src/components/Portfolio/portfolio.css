@@ -5,13 +5,38 @@
 }
 
 .port-header {
+  display: inline-block;
+    position: relative;
   text-align: center;
   color: white;
+  margin-left: 630px;
 }
 
+.port-header:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:
+    #e40fcf;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.port-header:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 .portfolio-header {
   color: white;
 }
+
+
+
+
 
 /* --------------------------------------------- */
 /* CARD  */
@@ -30,6 +55,10 @@
 .card:hover {
   transform: translateY(-10px);
   box-shadow: 15px 20px 20px #2de2e6 !important;
+}
+
+.card-title {
+  font-weight: 700;
 }
 /* --------------------------------------------- */
 /* 1ST RTOW OF CARDS  */

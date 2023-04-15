@@ -26,7 +26,9 @@ function Portfolio() {
               </p>
               <a
                 href="https://mercury-pos.herokuapp.com/"
-                className="btn "
+                  className="btn "
+                  target="_blank"
+                  rel="noreferrer"
               >
                 Go to Site
               </a>
@@ -45,6 +47,8 @@ function Portfolio() {
                 <a
                   href="https://hollyhleal.github.io/travel-buddy/"
                   className="btn "
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Go to Site
                 </a>
@@ -63,6 +67,8 @@ function Portfolio() {
                 <a
                   href="https://fast-cove-47826.herokuapp.com/"
                   className="btn "
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Go to Site
                 </a>
@@ -84,6 +90,8 @@ function Portfolio() {
                 <a
                   href="https://av720.github.io/Password-Generator/"
                   className="btn "
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Go to Site
                 </a>
@@ -102,6 +110,8 @@ function Portfolio() {
                 <a
                   href="https://av720.github.io/Weather-Dashboard/"
                   className="btn "
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Go to Site
                 </a>
@@ -120,6 +130,8 @@ function Portfolio() {
                 <a
                   href="https://av720.github.io/Code-Quiz/"
                   className="btn"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Go to Site
                 </a>

@@ -4,11 +4,9 @@ import '../Navbar/navbar.css'
 import '../Navbar/header.css'
 import 'animate.css';
 
-
-
-
-
 function NavBar() {
+
+
   
   return (
 
@@ -16,6 +14,7 @@ function NavBar() {
       <section>
  
       <div className="header">
+        
         <h1 className="my-name">Aldo Valencia</h1>
         <div>
             <ul>

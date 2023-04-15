@@ -4,6 +4,30 @@
   margin-top: 160px;
 }
 
+.header-text {
+display: inline-block;
+  position: relative
+}
+.header-text:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:
+    #e40fcf;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.header-text:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
 
 .languages {
   /* border: 1px solid purple; */
@@ -23,6 +47,11 @@
   margin-top: 10px;
   color: white;
 
+  text-align: center;
+}
+.experience-txt {
+  margin-top: 40px;
+  color: white;
   text-align: center;
 }
 
