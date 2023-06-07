@@ -72,17 +72,17 @@ const ContactForm = () => {
     return valid;
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
 
-    if (validate()) {
-      setFormState({
-        name: "",
-        email: "",
-        message: "",
-      });
-    }
-  };
+  //   if (validate()) {
+  //     setFormState({
+  //       name: "",
+  //       email: "",
+  //       message: "",
+  //     });
+  //   }
+  // };
 
   return (
     <div className="contact-me" id="contact-me">
