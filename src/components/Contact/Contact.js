@@ -9,34 +9,7 @@ const ContactForm = () => {
     message: "",
   });
 
-  //EMAIL JS HANDLE
-
-  const handleSubmitEmail = (e) => {
-    e.preventDefault();
-
-    if (validate()) {
-      const serviceId = "service_6vkhi15";
-      const templateId = "template_wi4k1p7";
-      const userId = "h6sxEXgnE5YqOtlYX";
-
-      emailjs
-        .send(serviceId, templateId, formState, userId)
-        .then((response) => {
-          alert("Email sent successfully!");
-
-          // Clear form
-          setFormState({
-            name: "",
-            email: "",
-            message: "",
-          });
-        })
-        .catch((error) => {
-          console.error("Email sending error:", error);
-        });
-    }
-  };
-
+  const [confirmationMessage, setConfirmationMessage] = useState("");
   const [errors, setErrors] = useState({});
 
   const handleChange = (e) => {
@@ -72,26 +45,42 @@ const ContactForm = () => {
     return valid;
   };
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
+  const handleSubmitEmail = (e) => {
+    e.preventDefault();
 
-  //   if (validate()) {
-  //     setFormState({
-  //       name: "",
-  //       email: "",
-  //       message: "",
-  //     });
-  //   }
-  // };
+    if (validate()) {
+      const serviceId = "service_6vkhi15";
+      const templateId = "template_wi4k1p7";
+      const userId = "h6sxEXgnE5YqOtlYX";
+
+      emailjs
+        .send(serviceId, templateId, formState, userId)
+        .then((response) => {
+          setConfirmationMessage("Email was successfully sent!");
+
+          // Clear the form
+          setFormState({
+            name: "",
+            email: "",
+            message: "",
+          });
+        })
+        .catch((error) => {
+          console.error("Email sending error:", error);
+          setConfirmationMessage(
+            "Error sending email. Please try again later."
+          );
+        });
+    }
+  };
 
   return (
     <div className="contact-me" id="contact-me">
       <div>
-        <h3 className="contactme-text">CONTACT ME </h3>
+        <h3 className="contactme-text">CONTACT ME</h3>
       </div>
       <div>
         <p className="contact-text">
-          {" "}
           Submit the form below in order to contact me
         </p>
       </div>
@@ -99,7 +88,7 @@ const ContactForm = () => {
       <div className="contact-form">
         <form onSubmit={handleSubmitEmail}>
           <div>
-            <label classname="name-field" htmlFor="name"></label>
+            {/* <label className="name-field" htmlFor="name"></label> */}
             <input
               type="text"
               id="name"
@@ -112,7 +101,7 @@ const ContactForm = () => {
             {errors.name && <span className="error">{errors.name}</span>}
           </div>
           <div>
-            <label classname="email-field" htmlFor="email"></label>
+            {/* <label className="email-field" htmlFor="email"></label> */}
             <input
               type="email"
               id="email"
@@ -122,7 +111,7 @@ const ContactForm = () => {
               onChange={handleChange}
               className="email-field"
             />
-            {errors.name && <span className="error">{errors.name}</span>}
+            {errors.email && <span className="error">{errors.email}</span>}
           </div>
           <div>
             <label htmlFor="message"></label>
@@ -135,12 +124,15 @@ const ContactForm = () => {
               onChange={handleChange}
               className="message-field"
             />
-            {errors.name && <span className="error">{errors.name}</span>}
+            {errors.message && <span className="error">{errors.message}</span>}
           </div>
           <button className="submit-btn" type="submit">
             Submit
           </button>
         </form>
+        {confirmationMessage && (
+          <p className="confirmation-message">{confirmationMessage}</p>
+        )}
       </div>
     </div>
   );
