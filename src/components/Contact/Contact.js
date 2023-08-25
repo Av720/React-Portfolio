@@ -10,6 +10,7 @@ const ContactForm = () => {
   });
 
   const [confirmationMessage, setConfirmationMessage] = useState("");
+  const [messageType, setMessageType] = useState("normal");
   const [errors, setErrors] = useState({});
 
   const handleChange = (e) => {
@@ -57,6 +58,7 @@ const ContactForm = () => {
         .send(serviceId, templateId, formState, userId)
         .then((response) => {
           setConfirmationMessage("Email was successfully sent!");
+          setMessageType("success");
 
           // Clear the form
           setFormState({
@@ -70,6 +72,7 @@ const ContactForm = () => {
           setConfirmationMessage(
             "Error sending email. Please try again later."
           );
+          setMessageType("error");
         });
     }
   };
@@ -88,7 +91,6 @@ const ContactForm = () => {
       <div className="contact-form">
         <form onSubmit={handleSubmitEmail}>
           <div>
-            {/* <label className="name-field" htmlFor="name"></label> */}
             <input
               type="text"
               id="name"
@@ -101,7 +103,6 @@ const ContactForm = () => {
             {errors.name && <span className="error">{errors.name}</span>}
           </div>
           <div>
-            {/* <label className="email-field" htmlFor="email"></label> */}
             <input
               type="email"
               id="email"
@@ -114,7 +115,6 @@ const ContactForm = () => {
             {errors.email && <span className="error">{errors.email}</span>}
           </div>
           <div>
-            <label htmlFor="message"></label>
             <textarea
               id="message"
               name="message"
@@ -131,7 +131,9 @@ const ContactForm = () => {
           </button>
         </form>
         {confirmationMessage && (
-          <p className="confirmation-message">{confirmationMessage}</p>
+          <p className={`confirmation-message message-${messageType}`}>
+            {confirmationMessage}
+          </p>
         )}
       </div>
     </div>

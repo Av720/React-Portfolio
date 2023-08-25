@@ -2,6 +2,7 @@
   text-align: center;
   /* background-image: url(/images/header-pic.jpg); */
   padding: 5px;
+  background-color: rgb(68, 24, 68);
 }
 
 .icons {
@@ -12,8 +13,8 @@
 }
 
 .icons-div {
-  margin-top: 50px;
-  padding-bottom: 50px;
+  margin-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
 }
 

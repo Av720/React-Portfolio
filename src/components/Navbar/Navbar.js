@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../Navbar/navbar.css";
 import "../Navbar/header.css";
 
@@ -9,29 +10,29 @@ const NavBar = () => (
         <div>
           <ul>
             <li>
-              <a className="nav-text" href="#main">
+              <Link className="nav-text" to="/react-portfolio/">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="nav-text" href="#about">
+              <Link className="nav-text" to="/react-portfolio/about">
                 About Me
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="nav-text" href="#portfolio">
+              <Link className="nav-text" to="/react-portfolio/portfolio">
                 Portfolio
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="nav-text" href="#experience">
+              <Link className="nav-text" to="/react-portfolio/experience">
                 Experience
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="nav-text" href="#footer">
+              <Link className="nav-text" to="/react-portfolio/contact">
                 Contact Me
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

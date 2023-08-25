@@ -12,7 +12,7 @@
 }
 
 .nav-text:hover {
-  box-shadow: inset 229px 0 0 0 rgba(185, 31, 185, 0.888);
+  box-shadow: inset 229px 0 0 0 rgba(74, 27, 74, 0.888);
   color: white;
 }
 
@@ -49,7 +49,7 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(47, 2, 47, 0.508);
+  background-color: rgb(35, 6, 35);
   padding: 10px;
   z-index: 90;
 }

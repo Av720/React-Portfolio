@@ -1,27 +1,25 @@
 /* PORTFOLIO */
 
 #portfolio {
-  margin-top: 250px;
+  margin-top: 150px;
+  background-color: rgb(68, 24, 68);
 }
 
 .port-header {
-  display: inline-block;
-    position: relative;
+  padding-top: 50px;
   text-align: center;
   color: white;
-  margin-left: 630px;
 }
 
 .port-header:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color:
-    #e40fcf;
+  background-color: #e40fcf;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -33,10 +31,6 @@
 .portfolio-header {
   color: white;
 }
-
-
-
-
 
 /* --------------------------------------------- */
 /* CARD  */
@@ -50,6 +44,11 @@
   border-radius: 10px;
   background-color: transparent !important;
   color: white;
+  margin-bottom: 50px;
+}
+
+.repo-link {
+  margin-left: 55px;
 }
 
 .card:hover {
@@ -65,7 +64,6 @@
 
 .first-row {
   margin-top: 90px;
-  
 }
 
 /* --------------------------------------------- */
@@ -76,12 +74,11 @@
   margin-top: 50px;
 }
 
-.btn  {
-  margin-left: 70px;
+.btn {
+  /* margin-left: 70px; */
   color: white !important;
   border-color: #e62daf !important;
   background-color: transparent;
-
 }
 
 .btn:hover {

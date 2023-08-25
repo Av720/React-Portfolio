@@ -15,26 +15,33 @@ function Portfolio() {
 
       <div className="cards">
         <div className="first-row d-flex justify-content-evenly">
-
-      <Tilt tiltAngleXInitial={2} tiltAngleYInitial={2}>
-          <div className="card" id="card">
-            <img src={mercury} className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Mercury POS</h5>
-              <p className="card-text">
-                A complete Pont Of Sale Application for any restaurant owners.
-              </p>
-              <a
-                href="https://mercury-pos.herokuapp.com/"
+          <Tilt tiltAngleXInitial={2} tiltAngleYInitial={2}>
+            <div className="card" id="card">
+              <img src={mercury} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Mercury POS</h5>
+                <p className="card-text">
+                  A complete Pont Of Sale Application for any restaurant owners.
+                </p>
+                <a
+                  href="https://mercury-pos.herokuapp.com/"
                   className="btn "
                   target="_blank"
                   rel="noreferrer"
-              >
-                Go to Site
-              </a>
+                >
+                  Go to Site
+                </a>
+                <a
+                  className="repo-link btn"
+                  href="https://github.com/therealsweven/full-stack-pantheon"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Repository
+                </a>
+              </div>
             </div>
-            </div>
-            </Tilt>
+          </Tilt>
 
           <Tilt tiltAngleXInitial={2} tiltAngleYInitial={2}>
             <div className="card">
@@ -42,7 +49,8 @@ function Portfolio() {
               <div className="card-body">
                 <h5 className="card-title">Travel Buddy</h5>
                 <p className="card-text">
-                  Travel Buddy is an app designed to be your personal planner on your next trip! 
+                  Travel Buddy is an app designed to be your personal planner on
+                  your next trip!
                 </p>
                 <a
                   href="https://hollyhleal.github.io/travel-buddy/"
@@ -51,6 +59,14 @@ function Portfolio() {
                   rel="noreferrer"
                 >
                   Go to Site
+                </a>
+                <a
+                  className="repo-link btn"
+                  href="https://github.com/hollyhleal/travel-buddy"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Repository
                 </a>
               </div>
             </div>
@@ -62,7 +78,8 @@ function Portfolio() {
               <div className="card-body">
                 <h5 className="card-title">Note Taker</h5>
                 <p className="card-text">
-                 This is an application where it canbe used to write and save and delete your notes.
+                  This is an application where it canbe used to write and save
+                  and delete your notes.
                 </p>
                 <a
                   href="https://fast-cove-47826.herokuapp.com/"
@@ -71,6 +88,14 @@ function Portfolio() {
                   rel="noreferrer"
                 >
                   Go to Site
+                </a>
+                <a
+                  className="repo-link btn"
+                  href="https://github.com/Av720/Note-Taker"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Repository
                 </a>
               </div>
             </div>
@@ -85,7 +110,8 @@ function Portfolio() {
               <div className="card-body">
                 <h5 className="card-title">Password Generator</h5>
                 <p className="card-text">
-                  Password Generator will create a random password accoring to the user input.
+                  Password Generator will create a random password accoring to
+                  the user input.
                 </p>
                 <a
                   href="https://av720.github.io/Password-Generator/"
@@ -94,6 +120,14 @@ function Portfolio() {
                   rel="noreferrer"
                 >
                   Go to Site
+                </a>
+                <a
+                  className="repo-link btn"
+                  href="https://github.com/Av720/Password-Generator"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Repository
                 </a>
               </div>
             </div>
@@ -105,7 +139,8 @@ function Portfolio() {
               <div className="card-body">
                 <h5 className="card-title">Weather Dashboard</h5>
                 <p className="card-text">
-                  Weather Dashboard allows users to search a U.S. city and receive current weather forecast.
+                  Weather Dashboard allows users to search a U.S. city and
+                  receive current weather forecast.
                 </p>
                 <a
                   href="https://av720.github.io/Weather-Dashboard/"
@@ -114,6 +149,14 @@ function Portfolio() {
                   rel="noreferrer"
                 >
                   Go to Site
+                </a>
+                <a
+                  className="repo-link btn"
+                  href="https://github.com/Av720/Weather-Dashboard"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Repository
                 </a>
               </div>
             </div>
@@ -125,7 +168,8 @@ function Portfolio() {
               <div className="card-body">
                 <h5 className="card-title">JS Code Quiz </h5>
                 <p className="card-text">
-                  A timed JavaScript coding quiz that will challenge your basic knowledge with given questions.
+                  A timed JavaScript coding quiz that will challenge your basic
+                  knowledge with given questions.
                 </p>
                 <a
                   href="https://av720.github.io/Code-Quiz/"
@@ -134,6 +178,14 @@ function Portfolio() {
                   rel="noreferrer"
                 >
                   Go to Site
+                </a>
+                <a
+                  className="repo-link btn"
+                  href="https://github.com/Av720/Code-Quiz"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Repository
                 </a>
               </div>
             </div>
